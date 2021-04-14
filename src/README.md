@@ -25,17 +25,17 @@ RWD
 -app
 
 -src
-|
+
 --components
-|
+
 ---Brand
-|
+
 ---Buttons
-|
+
 ---ChatRoomComponents
-|
+
 ---InfoBar
-|
+
 ---InputBar
 
 
@@ -43,22 +43,22 @@ RWD
 
 
 --images
-|
+
 ---BgButton
-|
+
 ---Brand
-|
+
 ---Icon
-|
+
 ---LoadingIcon
-|
+
 ---Logo
 
 
 --pages
-|
+
 ---ChatPage
-|
+
 ---HomePage
 
 ---LoginPage
