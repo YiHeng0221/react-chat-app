@@ -17,7 +17,7 @@ import {
   LoadingContext,
 } from "./utils/contexts";
 
-const ENDPOINT = "http://localhost:5000/";
+const ENDPOINT = "https://chatbar-react-socket.herokuapp.com/";
 
 const Root = styled.div`
   poistion: fixed;
