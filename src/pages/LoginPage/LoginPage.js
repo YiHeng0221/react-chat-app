@@ -28,13 +28,6 @@ const Logo = styled.img`
   transform: translate(-50%, -50%);
   height: 300px;
   transition: all 0.3s linear;
-  @media screen and (max-width: 479px) {
-    ${(props) =>
-      props.isFocus
-        ? `top: 25%;
-      height: 190px;`
-        : ""}
-  }
 `;
 
 const InputForm = styled.form`
@@ -42,9 +35,6 @@ const InputForm = styled.form`
   position: absolute;
   transition: all 0.3s linear;
   top: 70%;
-  @media screen and (max-width: 479px) {
-    ${(props) => (props.isFocus ? `top: 40%;` : "")}
-  }
 `;
 
 const getFourNum = () => {

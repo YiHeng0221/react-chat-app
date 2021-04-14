@@ -21,9 +21,6 @@ const ChatContentWrapper = styled.div`
   display: flex;
   flex-direction: column;
   overflow: scroll;
-  @media screen and (max-width: 479px) {
-    ${(props) => (props.isFocus ? `margin-bottom: 80%;` : "")}
-  }
 `;
 
 const ChatHeader = styled.div`
@@ -77,11 +74,6 @@ const ChatBarInputWrapper = styled.form`
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  @media screen and (max-width: 479px) {
-    right: 0;
-    left: 0;
-    ${(props) => (props.isFocus ? `top: 50%;` : "")}
-  }
 `;
 
 const ChatBarInputAddFile = styled.div`
@@ -107,9 +99,6 @@ const ChatBarInputBar = styled.input`
   }
   ::placeholder {
     color: #f2f2f2;
-  }
-  @media screen and (max-width: 479px) {
-    width: 250px;
   }
 `;
 const ChatBarInputSubmit = styled.button`

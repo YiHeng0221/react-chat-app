@@ -55,9 +55,6 @@ const CreateForm = styled.form`
   position: absolute;
   transition: all 0.3s linear;
   top: 75%;
-  // @media screen and (max-width: 479px) {
-  //   ${(props) => (props.isFocus ? `top: 40%;` : "")}
-  // }
 `;
 export default function PasswordLoadingPage() {
   // state
