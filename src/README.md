@@ -9,48 +9,80 @@
 ## 技術棧
 
 React.js
+
 react-router-dom
+
 node.js
+
 express
+
 socket.io
+
 RWD
 
 ## 資料夾結構
 
 -app
+
 -src
 
 --components
+
 ---Brand
+
 ---Buttons
+
 ---ChatRoomComponents
+
 ---InfoBar
+
 ---InputBar
+
 
 -- cssReset
 
+
 --images
+
 ---BgButton
+
 ---Brand
+
 ---Icon
+
 ---LoadingIcon
+
 ---Logo
 
+
 --pages
+
 ---ChatPage
+
 ---HomePage
+
 ---LoginPage
+
 ---NormalLoadingPage
+
 ---PasswordLoadingPage
+
 ---SearchPage
 
+
 --server
+
 ---router.js
+
 ---index.js
+
 ---user.js
 
+
 --utils
+
 ---contexts.js
+
 
 ## 使用導覽
 
