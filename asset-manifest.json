@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.js": "/react-chat-app/static/js/main.bde3b117.chunk.js",
+    "main.js.map": "/react-chat-app/static/js/main.bde3b117.chunk.js.map",
+    "runtime-main.js": "/react-chat-app/static/js/runtime-main.2440cf5f.js",
+    "runtime-main.js.map": "/react-chat-app/static/js/runtime-main.2440cf5f.js.map",
+    "static/js/2.0b3b75eb.chunk.js": "/react-chat-app/static/js/2.0b3b75eb.chunk.js",
+    "static/js/2.0b3b75eb.chunk.js.map": "/react-chat-app/static/js/2.0b3b75eb.chunk.js.map",
+    "index.html": "/react-chat-app/index.html",
+    "static/js/2.0b3b75eb.chunk.js.LICENSE.txt": "/react-chat-app/static/js/2.0b3b75eb.chunk.js.LICENSE.txt",
+    "static/media/lobbyButtonBg@2x.8f8f59f8.png": "/react-chat-app/static/media/lobbyButtonBg@2x.8f8f59f8.png",
+    "static/media/lockIcon.5026affc.svg": "/react-chat-app/static/media/lockIcon.5026affc.svg",
+    "static/media/logo@2x.90c9e81a.png": "/react-chat-app/static/media/logo@2x.90c9e81a.png",
+    "static/media/normal_loading_icon@2x.19a78357.png": "/react-chat-app/static/media/normal_loading_icon@2x.19a78357.png",
+    "static/media/passwordButtonBg@2x.e25fbede.png": "/react-chat-app/static/media/passwordButtonBg@2x.e25fbede.png",
+    "static/media/password_chatroom_logo@2x.d5b0ff8a.png": "/react-chat-app/static/media/password_chatroom_logo@2x.d5b0ff8a.png",
+    "static/media/password_loading_fail_icon@2x.9aca41e9.png": "/react-chat-app/static/media/password_loading_fail_icon@2x.9aca41e9.png",
+    "static/media/password_loading_icon@2x.3555f3ea.png": "/react-chat-app/static/media/password_loading_icon@2x.3555f3ea.png",
+    "static/media/randomButtonBg@2x.21600954.png": "/react-chat-app/static/media/randomButtonBg@2x.21600954.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2440cf5f.js",
+    "static/js/2.0b3b75eb.chunk.js",
+    "static/js/main.bde3b117.chunk.js"
+  ]
+}
