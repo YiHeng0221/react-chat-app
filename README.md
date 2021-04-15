@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# ChatBar 匿名聊天室
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[參考設計稿使用 Penny 的設計稿](https://challenge.thef2e.com/user/2232?schedule=4063#works-4063)
 
-## Available Scripts
+## 簡介
 
-In the project directory, you can run:
+![Imgur](https://i.imgur.com/XBAGO9y.gifv)
 
-### `yarn start`
+以 React.js 作為前端，並以 socket.io 實作隨機匹配的聊天室。
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 技術棧
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+React hook
 
-### `yarn test`
+react-router-dom
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+node.js
 
-### `yarn build`
+express
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+socket.io
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 使用導覽
 
-### `yarn eject`
+1. 點擊網址後進入 loginPage 可以輸入暱稱或使用匿名聊天來進入聊天室，輸入之暱稱會在「大廳聊吧」顯示。
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![login](https://imgur.com/hNh3DpT)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. 進入 HomePage 後可選擇三種聊天方式，分別為「大廳聊吧」、「密語聊吧」、「隨緣聊吧」，並可點擊離開回到 LogingPage
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+3. 點擊「大廳聊吧」會進入群聊模式，並在訊息上方顯示發送訊息者的暱稱。
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+![lobby](https://imgur.com/PKO3eQQ)
 
-## Learn More
+4. 點擊「密語聊吧」會進入 SearchPage 輸入密語後會尋找有無該密語聊天室，Loading 過程中可以點擊離開回到 HomePage，若沒有則會彈出視窗詢問是否新建該密語的聊天室，點否可回到 HomePage。
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![password](https://imgur.com/XBAGO9y)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+5. 點擊「隨緣聊吧」會配對兩位使用者進行入聊天室。
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+6. 上傳圖片、檔案、影片功能仍在開發中。
