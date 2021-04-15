@@ -31,7 +31,7 @@ socket.io
 
 <img src='./src/misc/lobby.gif'>
 
-4. 點擊「密語聊吧」會進入 SearchPage 輸入密語後會尋找有無該密語聊天室，Loading 過程中可以點擊離開回到 HomePage，若沒有則會彈出視窗詢問是否新建該密語的聊天室，點否可回到 HomePage。
+4. 點擊「密語聊吧」會進入 SearchPage 輸入密語後會尋找有無該密語聊天室，Loading 過程中可以點擊離開回到 HomePage，若沒有則會詢問是否新建該密語的聊天室，點離開可回到 HomePage。
 
 <img src='./src/misc/password.gif'>
 
